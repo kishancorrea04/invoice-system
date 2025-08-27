@@ -1,0 +1,24 @@
+services:
+  invoice-system:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: invoice-system
+    environment:
+      HOST: postgres
+      USER: postgres
+      PASSWORD: password
+      DB: postgres
+    ports:
+      - '8080:8080'
+    depends_on:
+      - postgres
+  postgres:
+    image: 'postgres:alpine'
+    container_name: postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+      POSTGRES_HOST: postgres
+    ports:
+      - '5432:5432'

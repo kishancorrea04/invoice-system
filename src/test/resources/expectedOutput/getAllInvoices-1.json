@@ -1,0 +1,10 @@
+[
+  {
+    "id": 1,
+    "amount": 200.00,
+    "paid_amount": 0.00,
+    "due_date": "2025-08-10",
+    "status": "PENDING",
+    "parentInvoiceId": null
+  }
+]

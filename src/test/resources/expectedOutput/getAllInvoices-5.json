@@ -1,0 +1,42 @@
+[
+  {
+    "id": 5,
+    "amount": 195.00,
+    "paid_amount": 0.00,
+    "due_date": "2025-09-06",
+    "status": "PENDING",
+    "parentInvoiceId": 1
+  },
+  {
+    "id": 4,
+    "amount": 325.00,
+    "paid_amount": 0.00,
+    "due_date": "2025-09-06",
+    "status": "PENDING",
+    "parentInvoiceId": 3
+  },
+  {
+    "id": 3,
+    "amount": 300.00,
+    "paid_amount": 0.00,
+    "due_date": "2025-08-15",
+    "status": "VOID",
+    "parentInvoiceId": null
+  },
+  {
+    "id": 2,
+    "amount": 250.00,
+    "paid_amount": 0.00,
+    "due_date": "2025-09-10",
+    "status": "PENDING",
+    "parentInvoiceId": null
+  },
+  {
+    "id": 1,
+    "amount": 200.00,
+    "paid_amount": 30.00,
+    "due_date": "2025-08-10",
+    "status": "PAID",
+    "parentInvoiceId": null
+  }
+]

@@ -167,7 +167,8 @@ docker compose up --build
 ### This will
 Build the application using Maven
 
-Spin up the Spring Boot app along with a PostgreSQL container
+Spin up the Spring Boot app along with a PostgreSQL container and creates the tables automatically.
+Data in database will be available until the container removed.
 
 Expose the app on localhost:8080
 Swagger UI : http://localhost:8080/swagger-ui.html
